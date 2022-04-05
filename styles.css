@@ -10,7 +10,7 @@ min-height: 100%;
   display: block;
   /* Other styles here */
 }
-iframe{
+embed{
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -48,7 +48,7 @@ dd{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 90% 5% 5%;
+  grid-template-columns: 70% 15% 15%;
   padding: 10px;
 }
 
@@ -110,9 +110,29 @@ footer {
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
+  .content{
+    margin-top: 70px;
+    font-size: xx-small;
+  }
+  header {
+    font-size: xx-small;
+  }
+  embed {
+    padding-top: 15px;
+    height: 150px;
+    width: 200px;
+    
+
+  }
+  table,th,td{
+    font-size: xx-small;
+  }
   footer {
+    left: 0;
     position: absolute;
     width: 100%;
+    font-size: xx-small;
+    height: 40px;
   }
   section {
     -webkit-flex-direction: column;
