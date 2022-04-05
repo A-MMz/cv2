@@ -10,7 +10,7 @@ min-height: 100%;
   display: block;
   /* Other styles here */
 }
-embed{
+video{
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -117,7 +117,7 @@ footer {
   header {
     font-size: xx-small;
   }
-  embed {
+  video {
     padding-top: 15px;
     height: 150px;
     width: 200px;
